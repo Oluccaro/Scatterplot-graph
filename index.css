@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    background-color: #242424;
+  }
+  #x-axis{
+    font: 18px sans-serif;
+    color: white;
+  }
+  
+  #y-axis{
+    font: 18px sans-serif;
+    color: white;
+  }
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 90%;
+    margin: auto;
+  }
+  #scatterPlot{
+    padding: 20px;
+  }
+  #tooltip{
+    position: absolute;
+    pointer-events: none;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    opacity: 0.9;
+    padding: 5px;
+  }
+  .dot{
+    
+  }
+  .dot:hover{
+    opacity: 0;
+  }
+  #legend{
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 15px;
+    position: relative;
+    left: 750px;
+    top: 300px;
+    z-index: 10;
+  }
+  #title{
+    color: white;
+  }
+  #subtitle{
+    color: white;
+  }
+  
